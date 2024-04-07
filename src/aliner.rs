@@ -12,7 +12,8 @@ use bio::alignment::{
 type PairwiseAlignment = bio::alignment::Alignment;
 type PartialorderAlignment = bio::alignment::poa::Alignment;
 
-///  Scoring rule for [Substitution matrix](https://en.wikipedia.org/wiki/Smith_Waterman_algorithm#Substitution_matrix)
+///  Scoring rule for
+///  [Substitution matrix](https://en.wikipedia.org/wiki/Smith_Waterman_algorithm#Substitution_matrix)
 #[derive(Debug, Clone)]
 pub struct Score {
     r#match: i32,

@@ -125,7 +125,7 @@ mod test {
 
         #[rustfmt::skip]
         // Do not format this code, as raw strings are weird, and any unwanted spaces in expected
-        // string will result in falure of this test
+        // string will result in failure of this test
         //
         // This is expected string(3 trailing newlines are added intentionally):
         // -----CCGT--CCGGCAAGGG

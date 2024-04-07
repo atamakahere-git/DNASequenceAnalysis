@@ -21,7 +21,7 @@ struct Cli {
     #[arg(short, long, value_name = "FILE")]
     query: PathBuf,
 
-    /// Print the alignemnt
+    /// Print the alignment
     #[arg(short, long)]
     print: bool,
 }
